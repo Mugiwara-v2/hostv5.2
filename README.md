@@ -9,3 +9,6 @@ https://mugiwara-v2.github.io/hostv5.2/us/index.html
 
 id
 https://mugiwara-v2.github.io/hostv5.2/id/index.html
+
+ar
+https://mugiwara-v2.github.io/hostv5.2/ar/index.html
