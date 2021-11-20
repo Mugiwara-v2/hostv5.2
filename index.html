@@ -5,12 +5,12 @@
 	<body class="bg">		
     <script> 
           if(window.applicationCache.status==2){localStorage.is755ACached=true;}
+	    	        window.applicationCache.onhashchange=function(){window.location.replace("http://manuals.playstation.net/document/fr/ps4/index.html");};
         	window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!";};
         	window.applicationCache.onprogress=function(a){document.getElementById("myBar").style.width=(Math.round(100*(a.loaded/a.total)))+"%";document.getElementById("myBar").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
         	window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";setTimeout(function(){document.getElementById("progress").innerHTML="Turn Off the Internet & Reopen the Page to Run the Exploit!!";},1500);};
         	window.applicationCache.onnoupdate=function(){window.location.replace("lndex.html");};
         	window.applicationCache.onerror=function(){window.location.replace("lndex.html");}; 
-	        window.applicationCache.onhashchange=function(){window.location.replace("http://manuals.playstation.net/document/fr/ps4/index.html");};
       </script>
 			<script>
 			var width = 0;
